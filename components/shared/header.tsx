@@ -11,8 +11,8 @@ interface HeaderProps {
 
 export const Header: FC<HeaderProps> = ({ className }) => {
     return (
-        <header className={cn("border border-b", className)}>
-            <Container className="flex items-center justify-between py-8">
+        <header className={cn("border-b", className)}>
+            <Container className="flex items-center justify-between py-8 px-3">
                 <Image src="/logo.png" alt="Logo" width={35} height={35} />
 
                 <div className="flex justify-between itemc-center gap-4">

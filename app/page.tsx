@@ -2,7 +2,7 @@ import { Container, Title } from "@/components/shared";
 
 export default function Home() {
     return (
-        <Container className="mt-10 flex-col gap-6 justify-center ">
+        <Container className="mt-10 flex-col gap-6 justify-center px-3 ">
             <Title
                 className="font-bold text-center"
                 size="2xl"
